@@ -79,7 +79,7 @@ def show_number(k):
 root = tk.Tk()
 
 frame = tk.Frame(root) # a container that contains widgets
-frame.grid()
+frame.grid() # indicate this frame is managed by a grid-type layout manager
 
 b0 = tk.Button(frame, text='0', command=lambda:key(0), font=('arial', 14))
 b1 = tk.Button(frame, text='1', command=lambda:key(1), font=('arial', 14))
